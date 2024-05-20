@@ -29,7 +29,7 @@ image_path = os.path.join(path, image)
 if os.path.exists(image_path):
     shutil.move(image_path, os.path.join(subdirectory, image))
 else:
-    print(f"sekil fayli tapilamdi: {image_path}")
+    print(f"Xeta! tapilmadi: {image_path}")
 
 
 text_path = os.path.join(subdirectory, 'text.txt')
